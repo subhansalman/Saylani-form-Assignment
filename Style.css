@@ -6,9 +6,5 @@ html{
 }
 .headcontainer{
     width: 50%;
-    margin:auto;
-}
-div>img.socialicons{
-    width: 10px;
-
+    margin: 0px auto;
 }
