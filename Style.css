@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.headcontainer{
+    width: 50%;
+    margin:auto;
+}
+div>img.socialicons{
+    width: 10px;
+
+}
