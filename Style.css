@@ -8,7 +8,8 @@ html{
 }
 .headcontainer{
     width: 70%;
-    margin: auto;
+    margin:  0px auto;
+    padding: 0px;
     border: 2px solid black;
 }
 .formlogo{
@@ -18,14 +19,38 @@ html{
     border: 1px solid rgb(217, 18, 18);
     display: block;
 }
+.headcontainer-two{
+    width: 100%;
+}
 .socialicons{
     width: 20px;
+    /* align-items: start; */
     display: inline-block;
-    align-items: start;
+    margin: 10px;
 }
-.headcontainer h1, p{
+.headicons{
+    width: 28%;
+    display: inline-block;
+}
+.headtext{
+    margin: auto 20px;
     text-align: center;
+    display: inline-block;
+
 }
-.headcontainer h1{
-    margin-top: -21px;
+
+.headbutton{
+     align-items: end;
+     display: inline-block;
+     margin: 10px;
+     border: 2px solid black;
+     padding: 5px 10px;
+}
+.formcontainer{
+    width: 70%;
+    margin:  0px auto;
+    padding: 0px;
+}
+.formcontainer label{
+    display: block;
 }
