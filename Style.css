@@ -7,16 +7,16 @@ html{
     font-size: 62.5%;
 }
 .headcontainer{
-    width: 70%;
+    width: 80%;
     margin:  0px auto;
     padding: 0px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .formlogo{
     width: 25%;
     margin: 20px auto;
     padding: 0px;    
-    border: 1px solid rgb(217, 18, 18);
+    /* border: 1px solid rgb(217, 18, 18); */
     display: block;
 }
 .headcontainer-two{
@@ -36,15 +36,21 @@ html{
     margin: auto 20px;
     text-align: center;
     display: inline-block;
-
+    width: 37%;
+    font-size: 1.5rem;
+}
+.headtext h1{
+    font-size: 3rem;
 }
 
 .headbutton{
      align-items: end;
      display: inline-block;
      margin: 10px;
-     border: 2px solid black;
+     /* border: 2px solid black; */
      padding: 5px 10px;
+     position: relative;
+     left: 150px;
 }
 .formcontainer{
     width: 70%;
@@ -52,5 +58,4 @@ html{
     padding: 0px;
 }
 .formcontainer label{
-    display: block;
 }
