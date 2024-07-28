@@ -7,13 +7,14 @@ html{
     font-size: 62.5%;
 }
 .headcontainer{
-    width: 80%;
+    width: 70%;
     margin:  0px auto;
     padding: 0px;
     /* border: 2px solid black; */
+    position: relative;
 }
 .formlogo{
-    width: 25%;
+    width: 20%;
     margin: 20px auto;
     padding: 0px;    
     /* border: 1px solid rgb(217, 18, 18); */
@@ -49,13 +50,33 @@ html{
      margin: 10px;
      /* border: 2px solid black; */
      padding: 5px 10px;
-     position: relative;
-     left: 150px;
+     position: absolute;
+     right: 50px;
 }
 .formcontainer{
-    width: 70%;
+    width: 80%;
     margin:  0px auto;
     padding: 0px;
+    position: relative;
 }
-.formcontainer label{
+.leftcontainer label,input{
+    display: block;
+    margin: 5px;
+}
+.rightcontainer label,input{
+    display: block;
+    margin: 5px;
+}
+.leftcontainer{
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+}
+.rightcontainer{
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    
 }
