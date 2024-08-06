@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.headercontainer{
+    width: 70%;
+    margin: 10px auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 0px;
+    border: 1px solid black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.logo img{
+    width: 25%;
+}
+.motherheadcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.socialicons img{
+    width: 30px;
+    margin: 5px;
+}
+.headertext{
+    text-align: center;
+}
+.headerbtn button{
+    border: 1px solid blue;
+    border-radius: 14px;
+    background: none;
+    padding: 5px;
+}
+.headerbtn button:hover{
+    background-color: white;
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.tabs a{
+    text-decoration: none;
+    color: rgb(21, 116, 181);
+    margin: 0px 10px;
+}
+.tabs a:hover{
+    color: rgb(157, 201, 73);
+}
