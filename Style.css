@@ -258,7 +258,7 @@ select:hover{
 .uploadtext{
     margin-top: 40px;
     font-size: 1.5rem;
-    color: #595959;
+    color: #29496e;
     margin-left: 10px;
     width: 100%;
 }
@@ -268,4 +268,21 @@ select:hover{
 }
 hr{
     color: #ebebeb5d;
+    margin: 30px;
+}
+.formeight{
+    font-size: 1.65rem;
+    color: #29496e;
+    margin-left: 30px;
+    width: 100%;
+}
+.formnine button{
+    background-color: #0d6db7;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    margin: 10px 30px;
+    cursor: pointer;
 }
