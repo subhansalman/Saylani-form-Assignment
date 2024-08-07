@@ -7,29 +7,154 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="headercontainer">
-        <div class="logo"> 
-            <img src="./Assets/logo.22bf709605809177256c.png" alt="Saylany logo">
-        </div>
-        <div class="motherheadcontainer">
-            <div class="socialicons">
-                <a href="https://www.facebook.com/saylani.smit"><img src="./Assets/facebook.0d22b4d986cc357e30b7.png" alt="Saylani facebook page"></a>
-                <a href="https://www.instagram.com/saylanimassittraining"><img src="./Assets/instagram.1506b398fa46f19bb324.png" alt="Saylani instagram page"></a>
-                <a href="https://www.youtube.com/@SaylaniMassITTraining"><img src="./Assets/youtube.25bcb63515915fad0160.png" alt="Saylani Youtube Page"></a>
+    <header>
+
+        <div class="headercontainer">
+            <div class="logo"> 
+                <img src="./Assets/logo.22bf709605809177256c.png" alt="Saylany logo">
             </div>
-            <div class="headertext">
-                <h1>Registeration Form SMIT</h1>
-                <p>Service-Education-Registration</p>
+            <div class="motherheadcontainer">
+                <div class="socialicons">
+                    <a href="https://www.facebook.com/saylani.smit"><img src="./Assets/facebook.0d22b4d986cc357e30b7.png" alt="Saylani facebook page"></a>
+                    <a href="https://www.instagram.com/saylanimassittraining"><img src="./Assets/instagram.1506b398fa46f19bb324.png" alt="Saylani instagram page"></a>
+                    <a href="https://www.youtube.com/@SaylaniMassITTraining"><img src="./Assets/youtube.25bcb63515915fad0160.png" alt="Saylani Youtube Page"></a>
+                </div>
+                <div class="headertext">
+                    <h1>Registeration Form SMIT</h1>
+                    <p>Service-Education-Registration</p>
+                </div>
+                <div class="headerbtn">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <button>Student Portal</button>
+                </div>
             </div>
-            <div class="headerbtn">
-                <button>Student Portal</button>
+            <div class="tabs">
+                <a href="./index.html">Registeration</a>
+                <a href="#">Download ID Cards</a>
+                <a href="#">Results</a>
             </div>
         </div>
-        <div class="tabs">
-            <a href="./index.html">Registeration</a>
-            <a href="#">Download ID Cards</a>
-            <a href="#">Results</a>
-        </div>
+    </header>
+
+<!-- FORM CONTAINER STARTED -->
+
+    <div class="formcontainer">
+        <form action="">
+            <div class="formone">
+                <div class="city">
+                    <label for="city">Select City</label>
+                        <select name="usercity" id="city" placeholder="Select City">
+                            <option value="Select Your City">Select City</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Faisalabad">Faisalabad</option>
+                            <option value="Islamabad">Islamabad</option>
+                        </select>
+                </div>
+                <div class="course">
+                    <label for="course">Select course or event</label>
+                    <select name="user's course" id="course" aria-placeholder="Select course or event">
+                        <option value="Select course or event">Select course or event</option>
+                        <option value="Genrative AI & Chatbot">Genrative AI & Chatbot</option>
+                        <option value="AWS Certified Developer Associates">AWS Certified Developer Associates</option>
+                        <option value="Network Professional">Network Professional(CCNA & CCNP)</option>
+                        <option value="Security Professional">Security Professional</option>
+                        <option value="AI & DS">AI & DS</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="IT Essantials">IT Essantials</option>
+                        <option value="Amazon mastery">Amazon Mastery</option>
+                        <option value="ui/ux design">ui/ux Design</option>
+                        <option value="SQA">SQA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="formtwo">
+                <div class="name">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="user name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="name">
+                    <label for="fathername">Father Name</label>
+                    <input type="text" name="user Father name" id="fathername" placeholder="Enter Father Name">
+                </div>
+            </div>
+            <div class="formthree">
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="user email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="phone">
+                    <label for="phone">Phone</label>
+                    <input type="number" name="user phone" id="phone" placeholder="Enter Phone Number">
+                </div>
+            </div>
+            <div class="formfour">
+                <div class="cnic">
+                    <label for="cnic">CNIC</label>
+                    <input type="number" name="user cnic" id="cnic" placeholder="CNIC">
+                </div>
+                <div class="cnic">
+                    <label for="fathercnic">Father's CNIC (optional)</label>
+                    <input type="number" name="user father cnic" id="fathercnic" placeholder="Father's CNIC (optional)">
+                </div>
+            </div>
+            <div class="formfive">
+                <div class="birthdate">
+                    <label for="birthdate">Date of Birth</label>
+                    <input type="date" name="user birthdate" id="birthdate">
+                </div>
+                <div class="gender">
+                    <label for="gender">Select gender</label>
+                    <select name="user gender" id="gender" placeholder="Select gender">
+                        <option value="Select your gender">Select City</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="formsix">
+                    <label for="address">Address</label>
+                    <input type="address" name="user address" id="address" class="inputcover" placeholder="Address">
+                    <label for="qualification">Last Qualification</label>
+                    <select name="user last qualification" id="qualification" placeholder="Last Qualification" class="inputcover">
+                        <option value="Last Qualification">Last Qualification</option>
+                        <option value="Matric">Matric</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Under Graduate">Under Graduate</option>
+                        <option value="Graduate">Graduate</option>
+                        <option value="Masters">Masters</option>
+                        <option value="PHD">PHD</option>
+                        <option value="Others">Others</option>
+                    </select>
+                    <label for="laptop">Do you have a Laptop?</label>
+                    <select name="user have laptop" id="laptop" placeholder="Do you have a Laptop?" class="inputcover">
+                        <option value="Do you have a Laptop?">Do you have a Laptop?</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+            </div>
+            <div class="formseven">
+                <div class="photo">
+                    <p>Picture</p>
+                    <input type="file" name="user photo" id="photo">
+                    <label for="photo">+Upload</label>
+                </div>
+                <div class="uploadtext">
+                    <ul>
+                        <li><span>With white or blue background
+                        </span></li>
+                        <li><span>File size must be less than 1MB
+                        </span></li>
+                        <li><span>File type: jpg, jpeg, png
+                        </span></li>
+                        <li><span>Upload your recent passport size picture
+                        </span></li>
+                        <li><span>Your Face should be clearly visible without any Glasses</span></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+        <hr>
     </div>
 </body>
 </html>

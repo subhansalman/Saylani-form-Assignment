@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 .headercontainer{
     width: 70%;
     margin: 10px auto;
@@ -11,7 +14,6 @@
     flex-direction: column;
     position: relative;
     padding: 10px 0px;
-    border: 1px solid black;
 }
 .logo{
     display: flex;
@@ -31,12 +33,16 @@
 }
 .headertext{
     text-align: center;
+    font-size: 1.75rem;
+}
+.headertext p{
+    font-size: 1.5rem;
 }
 .headerbtn button{
     border: 1px solid blue;
-    border-radius: 14px;
+    border-radius: 50px;
     background: none;
-    padding: 5px;
+    padding: 5px 10px;
 }
 .headerbtn button:hover{
     background-color: white;
@@ -50,7 +56,216 @@
     text-decoration: none;
     color: rgb(21, 116, 181);
     margin: 0px 10px;
+    font-size: 1.25rem;
+
 }
 .tabs a:hover{
     color: rgb(157, 201, 73);
+}
+
+/* form container started */
+form{
+    width: 100%;
+}
+
+.formcontainer{
+    width: 70%;
+    margin: 20px auto;
+}
+.formcontainer label,input{
+    display: block;
+}
+label{
+    font-size: 1.25rem;
+    margin: 5px;
+    color: rgb(21, 116, 181);
+    
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(157, 201, 73);
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: #7b7b7b;
+}
+input:hover{
+    border-color: rgb(21, 116, 181);
+}
+input:focus{
+    border-color: rgb(21, 116, 181);
+    color: #000000;
+}
+select{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(157, 201, 73);
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: #7b7b7b;
+}
+select:focus{
+    border-color: rgb(21, 116, 181);
+    color: #000000;
+}
+select:hover{
+    border-color: rgb(21, 116, 181);
+
+}
+.formone {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.city{
+    width: 45%;
+}
+#city{
+    width: 100%;
+    height: 50px;
+}
+.course{
+    width: 45%;
+}
+#course{
+    width: 100%;
+    height: 50px;
+}
+
+.formtwo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.name{
+    width: 45%;
+}
+#name{
+    width: 100%;
+    height: 50px;
+}
+#fathername{
+    width: 100%;
+    height: 50px;
+}
+.formthree{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.email{
+    width: 45%;
+}
+#email{
+    width: 100%;
+    height: 50px;
+}
+.phone{
+    width: 45%;
+}
+#phone{
+    width: 100%;
+    height: 50px;
+}
+.formfour{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.cnic{
+    width: 45%;
+}
+#cnic{
+    width: 100%;
+    height: 50px;
+}
+#fathercnic{
+    width: 100%;
+    height: 50px;
+}
+.formfive{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.birthdate{
+    width: 45%;
+}
+#birthdate{
+    width: 100%;
+    height: 50px;
+}
+.gender{
+    width: 45%;
+}
+#gender{
+    width: 100%;
+    height: 50px;
+}
+.formsix{
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+    margin-top: 10px;
+}
+.inputcover{
+    width: 100%;
+    height: 50px;
+}
+.formseven{
+    display: flex;
+}
+.photo input{
+   display: none;
+}
+.photo label{
+    cursor: pointer;
+    border: 1px dashed #7b7b7b;
+    min-width: 100px;
+    height: 100px;
+    display: flex;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.photo label:hover{
+    border-color:  rgb(21, 116, 181);
+    background-color: #ededed;
+}
+.photo p{
+    margin-top: 10px;
+    color: rgb(21, 116, 181);
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+.uploadtext{
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #595959;
+    margin-left: 10px;
+    width: 100%;
+}
+.uploadtext li{
+    list-style: none;
+    /* margin: 5px; */
+}
+hr{
+    color: #ebebeb5d;
 }
