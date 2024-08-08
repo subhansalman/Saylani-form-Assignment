@@ -5,15 +5,34 @@
 }
 html{
     font-size: 62.5%;
+    font-family: "Signika", sans-serif;
+
 }
 .headercontainer{
     width: 70%;
-    margin: 10px auto;
-    height: auto;
+    margin: 0px auto;
+    /* max-height: 300px; */
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: 10px 0px;
+    padding: 20px ;
+    /* border: 1px solid black; */
+
+}
+.headercontainer::before{
+    content: "";
+    background-image: url(./Assets/ux-store-jJT2r2n7lYA-unsplash-1536x1024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.25;
+    z-index: -1;
 }
 .logo{
     display: flex;
@@ -61,6 +80,11 @@ html{
 }
 .tabs a:hover{
     color: rgb(157, 201, 73);
+    background-color: white;
+}
+.tabs:focus{
+    color: rgb(157, 201, 73);
+    background-color: #ffffff;
 }
 
 /* form container started */
@@ -257,7 +281,7 @@ select:hover{
 }
 .uploadtext{
     margin-top: 40px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #29496e;
     margin-left: 10px;
     width: 100%;
@@ -271,7 +295,7 @@ hr{
     margin: 30px;
 }
 .formeight{
-    font-size: 1.65rem;
+    font-size: 1.5rem;
     color: #29496e;
     margin-left: 30px;
     width: 100%;
